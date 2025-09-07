@@ -1,6 +1,8 @@
 SELECT
-    id,
-    name,
-    email,
-    created_at
+    customer_id,
+	first_name,
+	last_name,
+	city,
+	state,
+	country
 FROM {{ ref('customers') }}
