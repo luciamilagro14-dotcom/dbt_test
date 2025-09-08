@@ -1,0 +1,14 @@
+version: 2
+
+models:
+  - name: stg_customers
+    description: "Datos de clientes provenientes del seed customers"
+    columns:
+      - name: customer_id
+        description: "Identificador único del cliente"
+        tests:
+          - not_null        # No debe haber valores nulos
+      - name: first_name
+        description: "Nombre del cliente"
+        tests:
+          - not_null        # El nombre no puede estar vacío
