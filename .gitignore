@@ -1,9 +1,4 @@
-<<<<<<< HEAD
-# you shouldn't commit these into source control
-# these are the default directory names, adjust/add to fit your needs
-=======
 
->>>>>>> 202a26e (Primer commit con dbt + mysql)
 target/
 dbt_packages/
 logs/
